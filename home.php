@@ -12,7 +12,7 @@
 		<nav>
 			<ul class="nav_links">
 				<li><a href="home.php">Home</a></li>
-				<li><a href="#">Menu & Recipes</a></li>
+				<li><a href="menu.php">Menu & Recipes</a></li>
 				<li><a href="#">Order Online</a></li>
 			</ul>
 		</nav>
@@ -31,7 +31,7 @@
 	  <div class="side-1">
 		<ul class="info_links">
 			<li><a href="#">About Us</a></li>
-			<li><a href="#">Admin Login</a></li>
+			<li><a href="login.php">Admin Login</a></li>
 		</ul>
 	  </div>
 	  <div class="side-2">

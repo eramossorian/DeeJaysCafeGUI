@@ -118,8 +118,20 @@
 			background-color: darkolivegreen;
 		}
 
+		.container-4 {
+			padding: 80px;
+			display: flex;
+			background-color: darkolivegreen;
+		}
+
 		.menu-1 {
-			text-align: right;
+			text-align: left;
+			flex: 1;
+			order: 1;
+		}
+
+		.login-1 {
+			text-align: left;
 			flex: 1;
 			order: 1;
 		}
