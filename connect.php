@@ -1,7 +1,7 @@
 <?php 
 $servername = "localhost"; 
-$username = "artemis_username"; // enter you artemis account username 
-$password = "artemis_password"; // enter artemis account password 
+$username = "eramossorian"; // enter you artemis account username 
+$password = "Qog0_dud"; // enter artemis account password 
  
 try {    
                                                     // database name will be "deejayscafe" 

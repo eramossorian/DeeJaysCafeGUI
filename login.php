@@ -1,19 +1,19 @@
 <?php 
 
-$host="localhost";
+$servername="localhost";
 $user="eramossorian";
 $password="Qog0_dud";
 $db="deejayscafe";
 
-mysql_connect($host,$user,$password);
-mysql_select_db($db);
+mysqli_connect($servername,$user,$password);
+mysqli_select_db($db);
 
 if(isset($_POST['username'])){
     
     $uname=$_POST['username'];
     $password=$_POST['password'];
     
-    $sql="select * from LoginForm where user='".$uname."'AND Pass='".$password."' limit 1";
+    $sql="select * from LoginForm where username='".$uname."'AND password='".$password."' limit 1";
     
     $result=mysql_query($sql);
     
@@ -49,9 +49,9 @@ if(isset($_POST['username'])){
 	<div class="container-4">
 		<div class="login-1">
 		<h3> Admin Login: </h3>
-		<form>
+		<form method="POST" action="#">
 			<div class="form-input">
-				<input type="text" name="text" placeholder="username"/>	
+				<input type="text" name="username" placeholder="username"/>	
 			</div>
 			<div class="form-input">
 				<input type="password" name="password" placeholder="password"/>
