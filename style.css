@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@300&display=swap');
+		body {
+			background:  rgb(58, 58, 58);
+			font-family: 'Readex Pro', sans-serif;
+			color:  white;
+			margin: 0;
+			padding: 0;
+		}
+
+		* {
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+		}
+
+		li, a {
+			font-weight: 500;
+			font-size: 16px;
+			color: black;
+			text-decoration: none;
+		}
+
+		header {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			background: white;
+			padding: 30px 10%;
+		}
+
+		.nav_links {
+			list-style: none;
+		}
+
+		.nav_links li {
+			display: inline-block;
+			padding: 0px 20px;
+		}
+
+		.nav_links li a {
+			transition: all 0.3s ease 0s;
+		}
+
+		.nav_links li a:hover {
+			color: brown;
+		}
+
+		.image {
+			background-image: url(coffeebeans.png);
+			background-size: cover;
+		}
+
+		.container-1{
+			padding: 80px;
+			display: flex;
+		}
+
+		.box-1 {
+			text-align: center;
+			flex: 1;
+			order: 1;
+		}
+
+		footer {
+			background: white;
+			padding: 10px 20px;
+			color: black;
+		}
+
+		.alt-footer {
+			background: black;
+			padding: 10px 20px;
+			color: white;
+		}
+
+		.container-2 {
+			display: flex;
+			text-align: center;
+			background: black;
+			padding: 20px;
+		}
+
+		.side-1 {
+			flex: 1;
+			order: 1;
+		}
+
+		.side-2 {
+			flex: 1;
+			order: 2;
+		}
+
+		.info_links {
+			list-style: none;
+		}
+
+		.info_links li{
+			padding: 10px;
+		}
+
+		.info_links li a{
+			text-decoration: underline;
+			color: white;
+		}
+
+		.hours {
+			list-style: none;
+		}
+
+		.hours li {
+			display: block;
+			color: white;
+		}
+
+		.container-3 {
+			padding: 80px;
+			display: flex;
+			background-color: darkolivegreen;
+		}
+
+		.menu-1 {
+			text-align: right;
+			flex: 1;
+			order: 1;
+		}
+
+
+		.button {
+  			background-color: black;
+  			border: none;
+ 			color: white;
+  			padding: 13px 32px;
+  			border-radius: 6px;
+  			text-align: center;
+  			text-decoration: none;
+  			display: inline-block;
+  			font-size: 16px;
+  			margin: 4px 2px;
+  			cursor: pointer;
+		}
